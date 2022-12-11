@@ -1,0 +1,16 @@
+﻿<Window x:Class="AdvertisementLogisticCompany.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdvertisementLogisticCompany"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Name="adText" Text="ГРУЗОПЕРЕВОЗКИ! Снимем груз с ваших плеч!" Width="200" TextWrapping="Wrap" TextAlignment="Center" FontSize="20"></TextBlock>
+            <Image Name="adImage" Source=".\Resources\vehicle.png" Width="300"></Image>
+            <Button Name="adButton" Content="Заказать услугу" FontSize="20" Width="300" Height="50"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
